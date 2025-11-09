@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>থিঙ্কবুক ল্যাপটপ</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="header fade-in">
+    <h1>লেনোভো থিঙ্কবুক</h1>
+    <p>পারফরম্যান্স, ডিজাইন ও স্মার্ট প্রযুক্তির সমন্বয় 💻</p>
+    <button id="themeToggle" class="theme-btn">🌗 থিম পরিবর্তন</button>
+  </header>
+
+  <nav class="nav">
+    <button class="nav-btn" data-section="home">হোম</button>
+    <button class="nav-btn" data-section="models">মডেল</button>
+    <button class="nav-btn" data-section="gallery">গ্যালারি</button>
+    <button class="nav-btn" data-section="contact">যোগাযোগ</button>
+  </nav>
+
+  <main>
+    <!-- হোম -->
+    <section id="home" class="section active">
+      <h2>থিঙ্কবুক: পেশাদারদের পছন্দ</h2>
+      <p>
+        থিঙ্কবুক সিরিজ আপনাকে দেয় স্মার্ট পারফরম্যান্স, দীর্ঘ ব্যাটারি লাইফ ও আধুনিক ডিজাইন।
+        প্রতিটি মডেল তৈরি হয়েছে কর্মক্ষেত্র ও ক্রিয়েটিভ কাজের জন্য।
+      </p>
+      <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-14p-G3-AMD-hero.png" alt="ThinkBook 14 Gen 6">
+        alt="ThinkBook Laptop" class="hero-img" />
+    </section>
+
+    <!-- মডেল -->
+    <section id="models" class="section">
+      <h2>জনপ্রিয় মডেল 💼</h2>
+
+      <div class="card fade-on-scroll">
+        <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-14p-G3-AMD-hero.png" alt="ThinkBook 14 Gen 6">
+        <h3>ThinkBook 14 Gen 6</h3>
+        <p>স্লিম ডিজাইন ও দারুন ব্যাটারি লাইফ — প্রতিদিনের ব্যবহারের জন্য আদর্শ।</p>
+      </div>
+
+      <div class="card fade-on-scroll">
+        <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-16p-G3-AMD-hero.png" alt="ThinkBook 16 Gen 5">
+        <h3>ThinkBook 16 Gen 5</h3>
+        <p>বড় ডিসপ্লে, শক্তিশালী প্রসেসর ও উন্নত পারফরম্যান্স।</p>
+      </div>
+
+      <div class="card fade-on-scroll">
+        <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-Plus-Gen-3-hero.png" alt="ThinkBook Plus Gen 3">
+        <h3>ThinkBook Plus Gen 3</h3>
+        <p>ডুয়াল স্ক্রিন মাল্টিটাস্কিং — ভবিষ্যতের কাজের অভিজ্ঞতা এখন হাতে।</p>
+      </div>
+    </section>
+
+    <!-- গ্যালারি -->
+    <section id="gallery" class="section">
+      <h2>ছবি গ্যালারি 📸</h2>
+      <div class="slider">
+        <div class="slides">
+          <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-13x-G4-Intel-hero.png" alt="ThinkBook 13x">
+          <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-14-G6-hero.png" alt="ThinkBook 14 G6">
+          <img src="https://p3-ofp.static.pub/ShareResource/na/products/laptops/thinkbook/ThinkBook-16-G6-hero.png" alt="ThinkBook 16 G6">
+        </div>
+      </div>
+      <p>← ← ছবিগুলো দেখতে স্লাইডার টানুন → →</p>
+    </section>
+
+    <!-- যোগাযোগ -->
+    <section id="contact" class="section">
+      <h2>যোগাযোগ করুন 📩</h2>
+      <form id="contactForm">
+        <input type="text" id="name" placeholder="নাম লিখুন" required>
+        <input type="email" id="email" placeholder="ইমেইল লিখুন" required>
+        <textarea id="message" placeholder="আপনার বার্তা..." required></textarea>
+        <button type="submit">পাঠান</button>
+      </form>
+      <p id="response" class="response"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© ২০২৫ থিঙ্কবুক ইনফো | 💙 নীল প্রযুক্তির সৌন্দর্য</p>
+  </footer>
+</body>
+</html>
